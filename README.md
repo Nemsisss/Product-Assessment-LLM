@@ -9,6 +9,8 @@
 
 [Architecture](https://github.com/Nemsisss/Original-Product-LLM#architecture)
 
+[Run in Docker](https://github.com/Nemsisss/Original-Product-LLM#run-in-docker)
+
 [Setup](https://github.com/Nemsisss/Original-Product-LLM#setup)
 * [System dependencies](https://github.com/Nemsisss/Original-Product-LLM#setup-dependencies)
   
@@ -52,7 +54,18 @@ notion link
 ## Architecture
 <img width="1036" alt="architecture of the app" src="architecture.png">
 
+## Run in Docker
+Run the following commands in your terminal (make sure you're in the root directory) :
+```
+docker build -t streamlit .
+```
+```
+docker run -p 8502:8502 streamlit
+```
+Wait for the docker to start runing, then open a browser and navigate to: http://0.0.0.0:8502
+
 ## Setup
+If you want to run the app locally on your computer without using a docker container, follow the instructions:
 ### System dependencies:
 * Python 3.11
 * Python, pip, virtualenv (or manager of choice, such as pyenv, anaconda)
