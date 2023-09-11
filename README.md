@@ -50,7 +50,7 @@ notion link
 | /model.py | Contains the model and langchain's chain logic |
 
 ## Architecture
-<img width="1036" alt="Screenshot 2023-08-22 at 4 12 12 PM" src="diagram link ">
+<img width="1036" alt="architecture.png" src="diagram link ">
 
 ## Setup
 ### System dependencies:
