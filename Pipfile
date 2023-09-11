@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hnswlib = "*"
+chromadb = "*"
+langchain = "*"
+sentence-transformers = "*"
+
+ctransformers = "*"
+bs4 = "*"
+streamlit = "*"
+streamlit-chat = "*"
+watchdog = "*"
+streamlit-on-hover-tabs = "*"
+openai = "*"
+tiktoken = "*"
+python-dotenv = "*"
+requests = "*"
+spacy = "*"
+textacy = "*"
+streamlit-option-menu = "*"
+flask = "*"
+streamlit-elements = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.4"
