@@ -28,6 +28,7 @@
 
 ## About
 This project was my summer 2023 internship project. The app is meant to help the sales/product teams in answering customer questions about the company's software product. The user uploads an input .csv file which contains the customer questions, and the app produces a .csv file which contains the responses, along with the sources of each response. Based on the responses, it also calculates a compliance score for the software product. 
+**Note:** Any sensitive information, API keys, links to the company and links to the company's data (including their gitbook and airtable url) has been removed. These can be replaced with any other product's gitbook and airtable url.
 I named this project Fred Again, as he is one of my favorite DJs and I had been listening to his songs during my internship period, so decided to name my project after him.
 The purpose of the app is to help product/sales/marketing teams answer software-related questions; so questions like whether software allows ingesting data with XML sources and so on.
 
