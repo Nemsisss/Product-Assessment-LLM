@@ -68,7 +68,7 @@ docker run -p 8502:8502 streamlit
 ```
 Wait for the docker to start running, then open a browser and navigate to: http://0.0.0.0:8502
 
-## Setup without docker
+## Setup to run without docker
 If you want to run the app locally on your computer without using a docker container, follow the instructions:
 ### System dependencies:
 * Python 3.11
