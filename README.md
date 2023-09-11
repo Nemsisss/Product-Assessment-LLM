@@ -1,4 +1,4 @@
-# 💿 Fred Again (ION RFP Processor)
+# 💿 Fred Again (Request for Proposal (RFP) Processor)
 
 ## Table of Contents
 [About](https://github.com/company_name/ion-rfp-processor#about)
