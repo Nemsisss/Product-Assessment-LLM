@@ -1,28 +1,28 @@
 # 💿 Fred Again (Request for Proposal (RFP) Processor)
 
 ## Table of Contents
-[About](https://github.com/company_name/ion-rfp-processor#about)
+[About](https://github.com/Nemsisss/Original-Product-LLM#about)
 
-[Notion doc](https://github.com/company_name/ion-rfp-processor#notion-doc)
+[Notion doc](https://github.com/Nemsisss/Original-Product-LLM#notion-doc)
 
-[Project Structure](https://github.com/company_name/ion-rfp-processor#project-structure)
+[Project Structure](https://github.com/Nemsisss/Original-Product-LLM#project-structure)
 
-[Architecture](https://github.com/company_name/ion-rfp-processor#architecture)
+[Architecture](https://github.com/Nemsisss/Original-Product-LLM#architecture)
 
-[Setup](https://github.com/company_name/ion-rfp-processor#setup)
-* [System dependencies](https://github.com/company_name/ion-rfp-processor#setup-dependencies)
+[Setup](https://github.com/Nemsisss/Original-Product-LLM#setup)
+* [System dependencies](https://github.com/Nemsisss/Original-Product-LLM#setup-dependencies)
   
-* [Clone the repository](https://github.com/company_name/ion-rfp-processor#clone-this-repository)
-* [Environment variables](https://github.com/company_name/ion-rfp-processor#environment-variables)
-* [Setup dependencies](https://github.com/company_name/ion-rfp-processor#setup-dependencies)
+* [Clone the repository](https://github.com/Nemsisss/Original-Product-LLM#clone-this-repository)
+* [Environment variables](https://github.com/Nemsisss/Original-Product-LLM#environment-variables)
+* [Setup dependencies](https://github.com/Nemsisss/Original-Product-LLM#setup-dependencies)
   
-[Input file requirements](https://github.com/company_name/ion-rfp-processor#input-file-requirements)
+[Input file requirements](https://github.com/Nemsisss/Original-Product-LLM#input-file-requirements)
 
-[Switching to llama2](https://github.com/company_name/ion-rfp-processor#switching-to-llama2)
+[Switching to llama2](https://github.com/Nemsisss/Original-Product-LLM#switching-to-llama2)
 
-[Run the app](https://github.com/company_name/ion-rfp-processor#run-the-app)
+[Run the app](https://github.com/Nemsisss/Original-Product-LLM#run-the-app)
 
-[Next steps](https://github.com/company_name/ion-rfp-processor#next-steps)
+[Next steps](https://github.com/Nemsisss/Original-Product-LLM#next-steps)
 
 ## About
 I named this project Fred Again, as he is one of my favorite DJs and I had been listening to his songs during my internship period, so decided to name my project after him.
@@ -58,7 +58,7 @@ notion link
 * Python, pip, virtualenv (or manager of choice, such as pyenv, anaconda)
 
 ### Clone this repository:
-`git@github.com:company_name/ion-rfp-processor.git`
+`git@github.com:Nemsisss/Original-Product-LLM.git`
 
 ### Environment variables:
 * Create a file named ".env" in the root directory
