@@ -11,7 +11,7 @@
 
 [Run in Docker](https://github.com/Nemsisss/Original-Product-LLM#run-in-docker)
 
-[Setup without docker](https://github.com/Nemsisss/Original-Product-LLM#setup-without-docker)
+[Setup to run without docker](https://github.com/Nemsisss/Original-Product-LLM#setup-to-run-without-docker)
 * [System dependencies](https://github.com/Nemsisss/Original-Product-LLM#setup-dependencies)
   
 * [Clone the repository](https://github.com/Nemsisss/Original-Product-LLM#clone-this-repository)
