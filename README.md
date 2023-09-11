@@ -50,7 +50,7 @@ notion link
 | /model.py | Contains the model and langchain's chain logic |
 
 ## Architecture
-<img width="1036" alt="architecture.png" src="diagram link ">
+<img width="1036" alt="architecture of the app" src="architecture.png">
 
 ## Setup
 ### System dependencies:
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ## Input file requirements:
 * Must be CSV file containing one column named "Prompt"
 * Each prompt must start with a verb
-  - "Doessoftware" will be concatenated to the beginning of each prompt before being sent to the LLM, so structure each prompt in a way that when concatenated with "Doessoftware", the question will make sense.
+  - "Does software" will be concatenated to the beginning of each prompt before being sent to the LLM, so structure each prompt in a way that when concatenated with "Does software", the question will make sense.
   - The following is an example of an acceptable csv input file:
   ```
   Prompt
