@@ -27,6 +27,7 @@
 [Next steps](https://github.com/Nemsisss/Original-Product-LLM#next-steps)
 
 ## About
+This project was my summer 2023 internship project. The app is meant to help the sales/product teams in answering customer questions about the company's software product. The user uploads an input .csv file which contains the customer questions, and the app produces a .csv file which contains the responses, along with the sources of each response. Based on the responses, it also calculates a compliance score for the software product. 
 I named this project Fred Again, as he is one of my favorite DJs and I had been listening to his songs during my internship period, so decided to name my project after him.
 The purpose of the app is to help product/sales/marketing teams answer software-related questions; so questions like whether software allows ingesting data with XML sources and so on.
 
