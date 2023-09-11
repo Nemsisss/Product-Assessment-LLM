@@ -62,7 +62,7 @@ docker build -t streamlit .
 ```
 docker run -p 8502:8502 streamlit
 ```
-Wait for the docker to start runing, then open a browser and navigate to: http://0.0.0.0:8502
+Wait for the docker to start running, then open a browser and navigate to: http://0.0.0.0:8502
 
 ## Setup
 If you want to run the app locally on your computer without using a docker container, follow the instructions:
