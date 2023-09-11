@@ -1,4 +1,4 @@
-# 💿 Fred Again (Request for Proposal (RFP) Processor)
+# 💿 Fred Again (product feature assessment and compliance evaluator tool)
 
 ## Table of Contents
 [About](https://github.com/Nemsisss/Original-Product-LLM#about)
