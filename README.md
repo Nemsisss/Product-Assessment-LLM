@@ -11,7 +11,7 @@
 
 [Run in Docker](https://github.com/Nemsisss/Original-Product-LLM#run-in-docker)
 
-[Setup](https://github.com/Nemsisss/Original-Product-LLM#setup)
+[Setup without docker](https://github.com/Nemsisss/Original-Product-LLM#setup-without-docker)
 * [System dependencies](https://github.com/Nemsisss/Original-Product-LLM#setup-dependencies)
   
 * [Clone the repository](https://github.com/Nemsisss/Original-Product-LLM#clone-this-repository)
@@ -68,7 +68,7 @@ docker run -p 8502:8502 streamlit
 ```
 Wait for the docker to start running, then open a browser and navigate to: http://0.0.0.0:8502
 
-## Setup
+## Setup without docker
 If you want to run the app locally on your computer without using a docker container, follow the instructions:
 ### System dependencies:
 * Python 3.11
