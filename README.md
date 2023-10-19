@@ -1,30 +1,30 @@
 # 💿 Fred Again (product feature assessment and compliance evaluator tool)
 
 ## Table of Contents
-[About](https://github.com/Nemsisss/Original-Product-LLM#about)
+[About](https://github.com/Nemsisss/Product-Assessment-LLM/#about)
 
-[Notion doc](https://github.com/Nemsisss/Original-Product-LLM#notion-doc)
+[Notion doc](https://github.com/Nemsisss/Product-Assessment-LLM/#notion-doc)
 
-[Project Structure](https://github.com/Nemsisss/Original-Product-LLM#project-structure)
+[Project Structure](https://github.com/Nemsisss/Product-Assessment-LLM/#project-structure)
 
-[Architecture](https://github.com/Nemsisss/Original-Product-LLM#architecture)
+[Architecture](https://github.com/Nemsisss/Product-Assessment-LLM/#architecture)
 
-[Run in Docker](https://github.com/Nemsisss/Original-Product-LLM#run-in-docker)
+[Run in Docker](https://github.com/Nemsisss/Product-Assessment-LLM/#run-in-docker)
 
-[Setup to run without docker](https://github.com/Nemsisss/Original-Product-LLM#setup-to-run-without-docker)
-* [System dependencies](https://github.com/Nemsisss/Original-Product-LLM#setup-dependencies)
+[Setup to run without docker](https://github.com/Nemsisss/Product-Assessment-LLM/#setup-to-run-without-docker)
+* [System dependencies](https://github.com/Nemsisss/Product-Assessment-LLM/#setup-dependencies)
   
-* [Clone the repository](https://github.com/Nemsisss/Original-Product-LLM#clone-this-repository)
-* [Environment variables](https://github.com/Nemsisss/Original-Product-LLM#environment-variables)
-* [Setup dependencies](https://github.com/Nemsisss/Original-Product-LLM#setup-dependencies)
+* [Clone the repository](https://github.com/Nemsisss/Product-Assessment-LLM/#clone-this-repository)
+* [Environment variables](https://github.com/Nemsisss/Product-Assessment-LLM/#environment-variables)
+* [Setup dependencies](https://github.com/Nemsisss/Product-Assessment-LLM/#setup-dependencies)
   
-[Input file requirements](https://github.com/Nemsisss/Original-Product-LLM#input-file-requirements)
+[Input file requirements](https://github.com/Nemsisss/Product-Assessment-LLM/#input-file-requirements)
 
-[Switching to llama2](https://github.com/Nemsisss/Original-Product-LLM#switching-to-llama2)
+[Switching to llama2](https://github.com/Nemsisss/Product-Assessment-LLM/#switching-to-llama2)
 
-[Run the app](https://github.com/Nemsisss/Original-Product-LLM#run-the-app)
+[Run the app](https://github.com/Nemsisss/Product-Assessment-LLM/#run-the-app)
 
-[Next steps](https://github.com/Nemsisss/Original-Product-LLM#next-steps)
+[Next steps](https://github.com/Nemsisss/Product-Assessment-LLM/#next-steps)
 
 ## About
 This project was my summer 2023 internship project. The app is meant to help the sales/product teams in answering customer questions about the company's software product. The user uploads an input .csv file which contains the customer questions, and the app produces a .csv file which contains the responses, along with the sources of each response. Based on the responses, it also calculates a compliance score for the software product.
@@ -75,7 +75,7 @@ If you want to run the app locally on your computer without using a docker conta
 * Python, pip, virtualenv (or manager of choice, such as pyenv, anaconda)
 
 ### Clone this repository:
-`git@github.com:Nemsisss/Original-Product-LLM.git`
+`git@github.com:Nemsisss/Product-Assessment-LLM.git`
 
 ### Environment variables:
 * Create a file named ".env" in the root directory
@@ -146,6 +146,3 @@ streamlit run main.py
 - In case the model is switched to llama2, I would recommend changing the frontend to a more robust and complete frontend framework (such as React.js).
     - If using streamlit with llama2, you should consider the following limitations:
         - Once the user uploads an input file to process, the model cannot be terminated right away, it needs to finish processing the current prompt before it can terminate. The issue with this is that even though UI/frontend will show that the program is terminated, the model may still be running on the server/backend trying to finish processing the current prompt. If the user tries to refresh the page or click on a tab/button while the model has not stopped, both the server and the browser will crash. At the time of development, I could not find a way to signal the frontend that the model is still executing neither did I find a way to signal the model that it needs to stop executing right away.
-
-
-
